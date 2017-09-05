@@ -1,0 +1,661 @@
+<schools>
+	<school name="USC" image="http://www-scf.usc.edu/~csci201/images/USC_seal.gif">
+		<departments>
+			<department>
+				<longName>Computer Science</longName>
+				<prefix>CSCI</prefix>
+				<courses>
+					<course>
+						<number>201L</number>
+						<title>Principles of Software Development</title>
+						<units>4</units>
+						<term>Summer</term>
+						<year>2017</year>
+						<staffMembers>
+							<staffMember type="instructor" id="1">
+								<name>
+									<fname>Jeffrey</fname>
+									<lname>Miller</lname>
+								</name>
+								<email>jeffrey.miller@usc.edu</email>
+								<image>http://www-scf.usc.edu/~csci201/images/jeffrey_miller.jpg</image>
+								<phone>213-740-7129</phone>
+								<office>SAL 342</office>
+								<officeHours>
+									<officeHour>
+										<day>Monday</day>
+										<time>
+											<start>6:30p.m.</start>
+											<end>7:30p.m.</end>
+										</time>
+									</officeHour>
+									<officeHour>
+										<day>Wednesday</day>
+										<time>
+											<start>7:00p.m.</start>
+											<end>8:00p.m.</end>
+										</time>
+									</officeHour>
+								</officeHours>
+							</staffMember>
+							<staffMember type="ta" id="2">
+								<name>
+									<fname>Reem</fname>
+									<lname>Alfayez</lname>
+								</name>
+								<email>alfayez@usc.edu</email>
+								<image>http://www-scf.usc.edu/~csci201/images/USC_seal.gif</image>
+								<office>SAL Open Lab</office>
+								<officeHours>
+									<officeHour>
+										<day>Monday</day>
+										<time>
+											<start>1:00p.m.</start>
+											<end>3:00p.m.</end>
+										</time>
+									</officeHour>
+								</officeHours>
+							</staffMember>
+							<staffMember type="cp" id="3">
+								<name>
+									<fname>Ninareh</fname>
+									<lname>Mehrabi</lname>
+								</name>
+								<email>ninareh@usc.edu</email>
+								<image>http://www-scf.usc.edu/~csci201/images/ninareh_mehrabi.jpg</image>
+								<office>SAL Open Lab</office>
+								<officeHours>
+									<officeHour>
+										<day>Tuesday</day>
+										<time>
+											<start>5:00p.m.</start>
+											<end>7:00p.m.</end>
+										</time>
+									</officeHour>
+								</officeHours>
+							</staffMember>
+							<staffMember type="grader" id="4">
+								<name>
+									<fname>Ruth</fname>
+									<lname>Libowsky</lname>
+								</name>
+								<email>libowsky@usc.edu</email>
+								<image>http://www-scf.usc.edu/~csci201/images/ruth_libowsky.jpg</image>
+								<officeHours>
+									<officeHour>
+										<day>By Appointment</day>
+									</officeHour>
+								</officeHours>
+							</staffMember>
+						</staffMembers>
+						<meetings>
+							<meeting type="lecture">
+								<section>30201R</section>
+								<room>KAP 163</room>
+								<meetingPeriods>
+									<meetingPeriod>
+										<day>Monday</day>
+										<time>
+											<start>3:30p.m.</start>
+											<end>6:30p.m.</end>
+										</time>
+									</meetingPeriod>
+									<meetingPeriod>
+										<day>Wednesday</day>
+										<time>
+											<start>3:30p.m.</start>
+											<end>6:30p.m.</end>
+										</time>
+									</meetingPeriod>
+								</meetingPeriods>
+								<assistants>
+									<assistant staffMemberID="3" />
+								</assistants>
+							</meeting>
+							<meeting type="lab">
+								<section>30202R</section>
+								<room>KAP 163</room>
+								<meetingPeriods>
+									<meetingPeriod>
+										<day>Monday</day>
+										<time>
+											<start>7:00p.m.</start>
+											<end>9:00p.m.</end>
+										</time>
+									</meetingPeriod>
+									<meetingPeriod>
+										<day>Wednesday</day>
+										<time>
+											<start>7:00p.m.</start>
+											<end>9:00p.m.</end>
+										</time>
+									</meetingPeriod>
+								</meetingPeriods>
+								<assistants>
+									<assistant staffMemberID="2" />
+									<assistant staffMemberID="3" />
+								</assistants>
+							</meeting>
+							<meeting type="quiz">
+								<section>30203R</section>
+								<room>OFFICE</room>
+								<meetingPeriods>
+									<meetingPeriod>
+										<day>TBA</day>
+										<time>
+											<start>TBA</start>
+											<end>TBA</end>
+										</time>
+									</meetingPeriod>
+								</meetingPeriods>
+							</meeting>
+						</meetings>
+						<syllabus>
+							<url>http://www-scf.usc.edu/~csci201/syllabus.pdf</url>
+						</syllabus>
+						<lectures>
+							<textbooks>
+								<textbook number="1">
+									<author>Y. Daniel Liang</author>
+									<title>Introduction to Java Programming, Comprehensive Version, 10th Edition</title>
+									<publisher>Prentice Hall, Inc.</publisher>
+									<year>2014</year>
+									<isbn>978-0133761313</isbn>
+								</textbook>
+							</textbooks>
+							<lecture week="1" number="1">
+								<date>6-28-2017</date>
+								<day>Wednesday</day>
+								<labs>
+									<lab number="1">
+										<title>Github Tutorial</title>
+										<url>http://www-scf.usc.edu/~csci201/labs/Lab0.pdf</url>
+									</lab>
+									<lab number="2">
+										<title>Environment Setup</title>
+										<url>http://www-scf.usc.edu/~csci201/labs/Lab1.pdf</url>
+									</lab>
+								</labs>
+								<topics>
+									<topic number="1">
+										<title>Introduction</title>
+										<url>http://www-scf.usc.edu/~csci201/lectures/Lecture1/Introduction.pdf</url>
+									</topic>
+									<topic number="2">
+										<title>Environment</title>
+										<url>http://www-scf.usc.edu/~csci201/lectures/Lecture1/Environment.pdf</url>
+									</topic>
+									<topic number="3">
+										<title>Reading Parameters</title>
+										<url>http://www-scf.usc.edu/~csci201/lectures/Lecture1/ReadingParameters.pdf</url>
+										<chapter>2</chapter>
+									</topic>
+									<topic number="4">
+										<title>Conditions</title>
+										<url>http://www-scf.usc.edu/~csci201/lectures/Lecture1/Conditions.pdf</url>
+										<chapter>3</chapter>
+										<programs>
+											<program>
+												<file number="1">
+													<title>Operation.java</title>
+													<url>http://www-scf.usc.edu/~csci201/Lecture1/Operation.java</url>
+												</file>
+											</program>
+										</programs>
+									</topic>
+									<topic number="5">
+										<title>Loops</title>
+										<url>http://www-scf.usc.edu/~csci201/lectures/Lecture1/Loops.pdf</url>
+										<chapter>4</chapter>
+										<programs>
+											<program>
+												<file number="1">
+													<title>Dice.java</title>
+													<url>http://www-scf.usc.edu/~csci201/Lecture1/Dice.java</url>
+												</file>
+											</program>
+										</programs>
+									</topic>
+									<topic number="6">
+										<title>Methods</title>
+										<url>http://www-scf.usc.edu/~csci201/lectures/Lecture1/Methods.pdf</url>
+										<chapter>5</chapter>
+										<programs>
+											<program>
+												<file number="1">
+													<title>Fibonacci.java</title>
+													<url>http://www-scf.usc.edu/~csci201/Lecture1/Fibonacci.java</url>
+												</file>
+											</program>
+										</programs>
+									</topic>
+									<topic number="7">
+										<title>Arrays</title>
+										<url>http://www-scf.usc.edu/~csci201/lectures/Lecture1/Arrays.pdf</url>
+										<chapter>6-7</chapter>
+										<programs>
+											<program>
+												<file number="1">
+													<title>Dice.java</title>
+													<url>http://www-scf.usc.edu/~csci201/Lecture1/Dice.java</url>
+												</file>
+											</program>
+										</programs>
+									</topic>
+									<topic number="8">
+										<title>Strings</title>
+										<url>http://www-scf.usc.edu/~csci201/lectures/Lecture1/Strings.pdf</url>
+										<chapter>9</chapter>
+									</topic>
+									<topic number="9">
+										<title>Classes</title>
+										<url>http://www-scf.usc.edu/~csci201/lectures/Lecture2/Classes.pdf</url>
+										<programs>
+											<program>
+												<file number="1">
+													<title>Salary.java</title>
+													<url>http://www-scf.usc.edu/~csci201/Lecture2/Salary.java</url>
+												</file>
+											</program>
+										</programs>
+										<chapter>8,10</chapter>
+									</topic>
+									<topic number="10">
+										<title>Packages</title>
+										<url>http://www-scf.usc.edu/~csci201/lectures/Lecture2/Packages.pdf</url>
+										<chapter>8</chapter>
+									</topic>
+									<topic number="11">
+										<title>File I/O</title>
+										<url>http://www-scf.usc.edu/~csci201/lectures/Lecture4/FileIO.pdf</url>
+										<programs>
+											<program>
+												<file number="1">
+													<title>FileCopy.java</title>
+													<url>http://www-scf.usc.edu/~csci201/lectures/Lecture4/FileCopy.java</url>
+												</file>
+												<file number="2">
+													<title>FileCopier.java</title>
+													<url>http://www-scf.usc.edu/~csci201/lectures/Lecture4/FileCopier.java</url>
+												</file>
+											</program>
+										</programs>
+										<chapter>9</chapter>
+									</topic>
+								</topics>
+							</lecture>
+							<lecture week="2">
+								<date>7-3-2017</date>
+								<day>Monday</day>
+								<topics>
+									<topic number="1">
+										<title>NO LECTURE - INDEPENDENCE DAY</title>
+									</topic>
+								</topics>
+							</lecture>
+							<lecture week="2" number="2">
+								<date>7-5-2017</date>
+								<day>Wednesday</day>
+								<labs>
+									<lab number="1">
+										<title>File I/O</title>
+										<url>http://www-scf.usc.edu/~csci201/labs/Lab2.pdf</url>
+										<files>
+											<file number="1">
+												<title>lab2.ser</title>
+												<url>http://www-scf.usc.edu/~csci201/labs/lab2.ser</url>
+											</file>
+										</files>
+									</lab>
+									<lab number="2">
+										<title>Inheritance</title>
+										<url>http://www-scf.usc.edu/~csci201/labs/Lab3.pdf</url>
+										<files>
+											<file number="1">
+												<title>Lab3.java</title>
+												<url>http://www-scf.usc.edu/~csci201/labs/Lab3.java</url>
+											</file>
+										</files>
+									</lab>
+								</labs>
+								<topics>
+									<topic number="1">
+										<title>Inheritance</title>
+										<url>http://www-scf.usc.edu/~csci201/lectures/Lecture2/Inheritance.pdf</url>
+										<chapter>11</chapter>
+										<programs>
+											<program>
+												<file number="1">
+													<title>TestShape.java</title>
+													<url>http://www-scf.usc.edu/~csci201/Lecture2/TestShape.java</url>
+												</file>
+												<file number="2">
+													<title>Shape.java</title>
+													<url>http://www-scf.usc.edu/~csci201/Lecture2/Shape.java</url>
+												</file>
+												<file number="3">
+													<title>Rectangle.java</title>
+													<url>http://www-scf.usc.edu/~csci201/Lecture2/Rectangle.java</url>
+												</file>
+												<file number="4">
+													<title>Square.java</title>
+													<url>http://www-scf.usc.edu/~csci201/Lecture2/Square.java</url>
+												</file>
+												<file number="5">
+													<title>Triangle.java</title>
+													<url>http://www-scf.usc.edu/~csci201/Lecture2/Triangle.java</url>
+												</file>
+											</program>
+										</programs>
+									</topic>
+									<topic number="2">
+										<title>Abstract Classes and Interfaces</title>
+										<url>http://www-scf.usc.edu/~csci201/lectures/Lecture2/AbstractClassesInterfaces.pdf</url>
+										<chapter>11</chapter>
+									</topic>
+									<topic number="3">
+										<title>Polymorphism</title>
+										<url>http://www-scf.usc.edu/~csci201/lectures/Lecture2/Polymorphism.pdf</url>
+										<chapter>11</chapter>
+									</topic>
+									<topic number="4">
+										<title>Garbage Collection</title>
+										<url>http://www-scf.usc.edu/~csci201/lectures/Lecture3/GarbageCollection.pdf</url>
+										<chapter>6,8</chapter>
+									</topic>
+									<topic number="5">
+										<title>Exception Handling</title>
+										<url>http://www-scf.usc.edu/~csci201/lectures/Lecture3/ExceptionHandling.pdf</url>
+										<chapter>13</chapter>
+										<programs>
+											<program>
+												<file number="1">
+													<title>NumberExceptions.java</title>
+													<url>http://www-scf.usc.edu/~csci201/lectures/Lecture3/NumberExceptions.java</url>
+												</file>
+												<file number="2">
+													<title>NumberGreaterException.java</title>
+													<url>http://www-scf.usc.edu/~csci201/letures/Lecture3/NumberGreaterException.java</url>
+												</file>
+											</program>
+										</programs>
+									</topic>
+									<topic number="6">
+										<title>Serialization</title>
+										<url>http://www-scf.usc.edu/~csci201/lectures/Lecture4/Serialization.pdf</url>
+										<chapter>19</chapter>
+									</topic>
+									<topic number="7">
+										<title>Generics</title>
+										<url>http://www-scf.usc.edu/~csci201/lectures/Lecture4/Generics.pdf</url>
+										<chapter>21</chapter>
+										<programs>
+											<program>
+												<file number="1">
+													<title>Employee.java</title>
+													<url>http://www-scf.usc.edu/~csci201/lectures/Lecture4/Employee.java</url>
+												</file>
+												<file number="2">
+													<title>EmployeeMain.java</title>
+													<url>http://www-scf.usc.edu/~csci201/letures/Lecture4/EmployeeMain.java</url>
+												</file>
+												<file number="3">
+													<title>GenericArray.java</title>
+													<url>http://www-scf.usc.edu/~csci201/letures/Lecture4/GenericArray.java</url>
+												</file>
+											</program>
+										</programs>
+									</topic>
+								</topics>
+							</lecture>
+						</lectures>
+						<assignments>
+							<assignment number="1">
+								<assignedDate>6-28-2017</assignedDate>
+								<dueDate>7-5-2017</dueDate>
+								<title>PDF</title>
+								<url>http://www-scf.usc.edu/~csci201/assignments/Assignment1.pdf</url>
+								<files>
+									<file number="1">
+										<title>Sample XML</title>
+										<url>http://www-scf.usc.edu/~csci201/assignments/Assignment1-2.xml</url>
+									</file>
+								</files>
+								<gradePercentage>2.5%</gradePercentage>
+								<gradingCriteria></gradingCriteria>
+								<solution></solution>
+							</assignment>
+							<assignment number="2">
+								<assignedDate>7-5-2017</assignedDate>
+								<dueDate>7-16-2017</dueDate>
+								<title>PDF</title>
+								<url>http://www-scf.usc.edu/~csci201/assignments/Assignment2.pdf</url>
+								<files>
+									<file number="1">
+										<title>Sample XML</title>
+										<url>http://www-scf.usc.edu/~csci201/assignments/Assignment2.xml</url>
+									</file>
+								</files>
+								<gradePercentage>4.5%</gradePercentage>
+								<gradingCriteria></gradingCriteria>
+								<solution></solution>
+							</assignment>
+							<assignment number="3">
+								<assignedDate>7-15-2017</assignedDate>
+								<dueDate>7-23-2017</dueDate>
+								<title></title>
+								<url></url>
+								<gradePercentage>4.5%</gradePercentage>
+								<gradingCriteria></gradingCriteria>
+								<solution></solution>
+							</assignment>
+							<assignment number="4">
+								<assignedDate>7-23-2017</assignedDate>
+								<dueDate>7-30-2017</dueDate>
+								<title></title>
+								<url></url>
+								<gradePercentage>4.5%</gradePercentage>
+								<gradingCriteria></gradingCriteria>
+								<solution></solution>
+							</assignment>
+							<assignment number="5">
+								<assignedDate>7-30-2017</assignedDate>
+								<dueDate>8-6-2017</dueDate>
+								<title></title>
+								<url></url>
+								<gradePercentage>4.0%</gradePercentage>
+								<gradingCriteria></gradingCriteria>
+								<solution></solution>
+							</assignment>
+							<assignment number="Final Project">
+								<assignedDate>7-13-2017</assignedDate>
+								<title>Final Project Description</title>
+								<url>http://www-scf.usc.edu/~csci201/assignments/FinalProject.pdf</url>
+								<files>
+									<file number="1">
+										<title>Final Project Ideas from Previous CPs</title>
+										<url>http://www-scf.usc.edu/~csci201/assignments/FinalProjectIdeas.pdf</url>
+									</file>
+								</files>
+								<deliverables>
+									<deliverable number="1">
+										<dueDate>7-13-2017 to 8-6-2017</dueDate>
+										<title>Twice/Week Meeting with Assigned CP</title>
+										<gradePercentage>4.0% (0.5%/meeting)</gradePercentage>
+									</deliverable>
+									<deliverable number="2">
+										<dueDate>7-13-2017</dueDate>
+										<title>Team Members, Meeting Times, Project Proposal</title>
+										<gradePercentage>1.0%</gradePercentage>
+									</deliverable>
+									<deliverable number="3">
+										<dueDate>7-16-2017</dueDate>
+										<title>High-Level Requirements</title>
+										<gradePercentage>2.0%</gradePercentage>
+									</deliverable>
+									<deliverable number="4">
+										<dueDate>7-19-2017</dueDate>
+										<title>Technical Specifications</title>
+										<gradePercentage>2.0%</gradePercentage>
+									</deliverable>
+									<deliverable number="5">
+										<dueDate>7-19-2017</dueDate>
+										<title>Peer Review #1</title>
+										<gradePercentage>1.0%</gradePercentage>
+									</deliverable>
+									<deliverable number="6">
+										<dueDate>7-23-2017</dueDate>
+										<title>Detailed Design</title>
+										<gradePercentage>3.0%</gradePercentage>
+									</deliverable>
+									<deliverable number="7">
+										<dueDate>7-26-2017</dueDate>
+										<title>Testing Document</title>
+										<gradePercentage>2.0%</gradePercentage>
+									</deliverable>
+									<deliverable number="8">
+										<dueDate>7-26-2017</dueDate>
+										<title>Deployment Document</title>
+										<gradePercentage>1.0%</gradePercentage>
+									</deliverable>
+									<deliverable number="9">
+										<dueDate>8-1-2017</dueDate>
+										<title>Complete Code</title>
+										<gradePercentage>2.0%</gradePercentage>
+									</deliverable>
+									<deliverable number="10">
+										<dueDate>8-1-2017</dueDate>
+										<title>Peer Review #2</title>
+										<gradePercentage>1.0%</gradePercentage>
+									</deliverable>
+									<deliverable number="11">
+										<dueDate>8-2-2017</dueDate>
+										<title>Complete Documentation</title>
+										<gradePercentage>1.0%</gradePercentage>
+									</deliverable>
+									<deliverable number="12">
+										<dueDate>8-2-2017</dueDate>
+										<title>Demonstration</title>
+										<gradePercentage>10.0%</gradePercentage>
+										<files>
+											<file number="1">
+												<title>Grading Rubric</title>
+												<url>http://www-scf.usc.edu/~csci201/assignments/FinalProjectPresentationGradingRubric.pdf</url>
+											</file>
+											<file number="2">
+												<title>Professor Evaluation Form</title>
+												<url>http://www-scf.usc.edu/~csci201/assignments/FinalProjectPresentationEvaluationForm-Professor.pdf</url>
+											</file>
+											<file number="3">
+												<title>Student Evaluation Form</title>
+												<url>http://www-scf.usc.edu/~csci201/assignments/FinalProjectPresentationEvaluationForm-Student.pdf</url>
+											</file>
+										</files>
+									</deliverable>
+								</deliverables>
+							</assignment>
+						</assignments>
+						<exams>
+							<terms>
+								<term semester="Spring" year="2014">
+									<exam>
+										<title>Written Exam #1</title>
+										<files>
+											<file number="1">
+												<title>PDF</title>
+												<url>http://www-scf.usc.edu/~csci201/exams/midterm-written-spring2014.pdf</url>
+											</file>
+										</files>
+									</exam>
+									<exam>
+										<title>Programming Exam #1</title>
+										<files>
+											<file number="1">
+												<title>Section 1 PDF</title>
+												<url>http://www-scf.usc.edu/~csci201/exams/midterm-programming-section1-spring2014.pdf</url>
+											</file>
+											<file number="2">
+												<title>Section 2 PDF</title>
+												<url>http://www-scf.usc.edu/~csci201/exams/midterm-programming-section2-spring2014.pdf</url>
+											</file>
+										</files>
+									</exam>
+									<exam>
+										<title>Written Exam #2</title>
+										<files>
+											<file number="1">
+												<title>PDF</title>
+												<url>http://www-scf.usc.edu/~csci201/exams/final-written-spring2014.pdf</url>
+											</file>
+										</files>
+									</exam>
+									<exam>
+										<title>Programming Exam #2</title>
+										<files>
+											<file number="1">
+												<title>Section 1 PDF</title>
+												<url>http://www-scf.usc.edu/~csci201/exams/final-programming-section1-spring2014.pdf</url>
+											</file>
+											<file number="2">
+												<title>Section 2 PDF</title>
+												<url>http://www-scf.usc.edu/~csci201/exams/final-programming-section2-spring2014.pdf</url>
+											</file>
+											<file number="3">
+												<title>Starting Code</title>
+												<url>http://www-scf.usc.edu/~csci201/exams/finalexam_spring2014.zip</url>
+											</file>
+										</files>
+									</exam>
+								</term>
+								<term semester="Summer" year="2014">
+									<exam>
+										<exam>
+											<title>Written Exam #1</title>
+											<files>
+												<file number="1">
+													<title>PDF</title>
+													<url>http://www-scf.usc.edu/~csci201/exams/midterm-written-summer2014.pdf</url>
+												</file>
+											</files>
+										</exam>
+										<exam>
+											<title>Programming Exam #1</title>
+											<files>
+												<file number="1">
+													<title>PDF</title>
+													<url>http://www-scf.usc.edu/~csci201/exams/midterm-programming-summer2014.pdf</url>
+												</file>
+											</files>
+										</exam>
+										<exam>
+											<title>Written Exam #2</title>
+											<files>
+												<file number="1">
+													<title>PDF</title>
+													<url>http://www-scf.usc.edu/~csci201/exams/final-written-summer2014.pdf</url>
+												</file>
+											</files>
+										</exam>
+										<exam>
+											<title>Programming Exam #2</title>
+											<files>
+												<file number="1">
+													<title>PDF</title>
+													<url>http://www-scf.usc.edu/~csci201/exams/final-programming-summer2014.pdf</url>
+												</file>
+												<file number="3">
+													<title>Starting Code</title>
+													<url>http://www-scf.usc.edu/~csci201/exams/finalexam_summer2014.zip</url>
+												</file>
+											</files>
+										</exam>
+									</exam>
+								</term>
+							</terms>
+						</exams>
+					</course>
+				</courses>
+			</department>
+		</departments>
+	</school>
+</schools>
