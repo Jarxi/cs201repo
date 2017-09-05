@@ -1,0 +1,81 @@
+@CHARSET "UTF-8";
+@CHARSET "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+html{
+	height:100%;
+}
+
+table{
+	border-collapse: collapse;
+}
+body{
+	width: 100%;
+}
+th{
+	font-family: 'Montserrat';
+}
+a:hover{
+	background-color: rgba(230,230,230,0.6);
+}
+a{
+	text-decoration: none;
+}
+#leftTd{
+	position:fixed;
+	margin-top:100px;
+}
+
+#centerTd{
+	margin-bottom:100px;
+
+}
+
+#uscImage{
+	-webkit-animation:spin 8s linear infinite;
+    -moz-animation:spin 8s linear infinite;
+	animation:spin 8s linear infinite;
+}
+
+
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+.topnav {
+  overflow: hidden;
+  
+}
+.topnav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2px;
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  background-color: #5D6D7E;
+  animation-name: showNav;
+  animation-duration: 1s;
+}
+
+
+.topnav a:hover  {
+  background-color: #273746;
+  margin-top: 10px;
+  box-shadow: 0 2px white ;
+}
+@-webkit-keyframes showNav{
+			0%{
+				opacity: 0;
+			}
+			50%{
+				opacity: 0.5;
+			}
+			100%{
+				opacity: 1;
+			}
+}
+
+
